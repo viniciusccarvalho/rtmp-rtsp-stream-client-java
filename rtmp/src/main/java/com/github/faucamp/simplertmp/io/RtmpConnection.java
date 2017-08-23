@@ -182,7 +182,7 @@ public class RtmpConnection implements RtmpPublisher {
       invoke.getHeader().setMessageStreamId(0);
       AmfObject args = new AmfObject();
       args.setProperty("app", appName);
-      args.setProperty("flashVer", "FMLE/3.0 (compatible; Lavf57.56.101)");
+      args.setProperty("flashVer", "LNX 11,2,202,233");
       args.setProperty("swfUrl", swfUrl);
       args.setProperty("tcUrl", tcUrl);
       args.setProperty("fpad", false);
@@ -217,7 +217,7 @@ public class RtmpConnection implements RtmpPublisher {
     invoke.getHeader().setMessageStreamId(0);
     AmfObject args = new AmfObject();
     args.setProperty("app", appName + "?authmod=adobe&user=" + user);
-    args.setProperty("flashVer", "FMLE/3.0 (compatible; Lavf57.56.101)");
+    args.setProperty("flashVer", "LNX 11,2,202,233");
     args.setProperty("swfUrl", swfUrl);
     args.setProperty("tcUrl", tcUrl + "?authmod=adobe&user=" + user);
     args.setProperty("fpad", false);
@@ -255,7 +255,7 @@ public class RtmpConnection implements RtmpPublisher {
     invoke.getHeader().setMessageStreamId(0);
     AmfObject args = new AmfObject();
     args.setProperty("app", appName + result);
-    args.setProperty("flashVer", "FMLE/3.0 (compatible; Lavf57.56.101)");
+    args.setProperty("flashVer", "LNX 11,2,202,233");
     args.setProperty("swfUrl", swfUrl);
     args.setProperty("tcUrl", tcUrl + result);
     args.setProperty("fpad", false);
